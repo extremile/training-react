@@ -1,0 +1,14 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ERR_PNPM_NO_IMPORTER_MANIFEST_FOUND",
+    "err": {
+      "name": "pnpm",
+      "message": "No package.json (or package.yaml, or package.json5) was found in \"/home/extremile/www/react-training\".",
+      "code": "ERR_PNPM_NO_IMPORTER_MANIFEST_FOUND",
+      "stack": "pnpm: No package.json (or package.yaml, or package.json5) was found in \"/home/extremile/www/react-training\".\n    at readProjectManifest (/home/extremile/.volta/tools/image/packages/pnpm/lib/node_modules/pnpm/dist/pnpm.cjs:19830:13)\n    at async Object.readProjectManifestOnly (/home/extremile/.volta/tools/image/packages/pnpm/lib/node_modules/pnpm/dist/pnpm.cjs:19834:28)\n    at async readProjectManifestOnly (/home/extremile/.volta/tools/image/packages/pnpm/lib/node_modules/pnpm/dist/pnpm.cjs:43827:24)\n    at async Object.handler (/home/extremile/.volta/tools/image/packages/pnpm/lib/node_modules/pnpm/dist/pnpm.cjs:178338:24)\n    at async /home/extremile/.volta/tools/image/packages/pnpm/lib/node_modules/pnpm/dist/pnpm.cjs:182614:21\n    at async run (/home/extremile/.volta/tools/image/packages/pnpm/lib/node_modules/pnpm/dist/pnpm.cjs:182588:34)\n    at async runPnpm (/home/extremile/.volta/tools/image/packages/pnpm/lib/node_modules/pnpm/dist/pnpm.cjs:182807:5)\n    at async /home/extremile/.volta/tools/image/packages/pnpm/lib/node_modules/pnpm/dist/pnpm.cjs:182799:7"
+    }
+  }
+}
