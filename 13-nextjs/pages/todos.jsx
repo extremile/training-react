@@ -2,7 +2,7 @@ import Link from "next/link";
 import Layout from "../components/Layout";
 export default function todos({ data }) {
   return (
-    <Layout title="Todos" current page="todos">
+    <Layout title="Todos" currentPage="todos">
       <h2 className="pb-8 text-2xl">Listing des todos</h2>
       <ul>
         {data.map((todo) => (

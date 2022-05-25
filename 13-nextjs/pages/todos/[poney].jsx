@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function todos({ data }) {
   return (
-    <Layout title="Todos" current page="todos">
+    <Layout title="Todos" currentPage="todos">
       <h1 className="text-4xl">{data.title}</h1>
     </Layout>
   );

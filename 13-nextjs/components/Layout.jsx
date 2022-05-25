@@ -6,7 +6,7 @@ export default function Layout({ children, title, currentPage }) {
   return (
     <div className="flex flex-col w-screen min-h-screen bg-gray-200">
       <Head>
-        <title>Homepage</title>
+        <title>{title}</title>
         <meta name="description" content="App for training with nextjs" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
